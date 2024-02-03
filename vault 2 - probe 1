@@ -1,3 +1,5 @@
+cq.append(cirq.H.on(cirq.LineQubit(1)))
+
 {'0': 0.01,
  '2': 0.05,
  '3': 0.01,
