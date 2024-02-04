@@ -4,7 +4,7 @@ Hadamard on ...
 
 
 probe 2:
-*not gates*
+*no gates*
 {'0': 0.13,
  '1': 0.12,
  '2': 0.11,
