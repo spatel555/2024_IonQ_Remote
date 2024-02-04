@@ -29,3 +29,8 @@ circ.append(cirq.rx(2.5).on(qubits[1]))
 vault9 - probe 7 
 circ.append(cirq.rx(3).on(qubits[1]))
 {'0': 0.005, '1': 0.07, '2': 0.155, '3': 0.77}
+
+vault9 - probe 8 
+circ.append(cirq.Z.on(qubits[1]))
+{'0': 0.155, '1': 0.755, '3': 0.09}
+
