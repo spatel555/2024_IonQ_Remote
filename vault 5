@@ -69,5 +69,7 @@ cq.append(cirq.H.on(cirq.LineQubit(0)))
 cq.append(cirq.H.on(cirq.LineQubit(2)))
 {'0': 0.47, '3': 0.53}
 
-
+ATTACK!
+hadamard on index 1 and 2, that's it
+{'costFactor': 1, 'rawScore': 0.499, 'score': 0.499}
 
