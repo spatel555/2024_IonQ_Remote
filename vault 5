@@ -1,5 +1,5 @@
 probe 1:
-Hadamard on ...
+Hadamard on Qubit 1 (index 0)
 {'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
 
 
@@ -16,5 +16,17 @@ probe 2:
 
 
 probe 3:
-Hamard on QuBit 3 (index 2)
+Hardamard on QuBit 3 (index 2)
+{'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
+
+probe 4:
+Hardamard on QuBit 2 (index 1)
+{'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
+
+Probe 5:
+Hardamard on Qubit 2 & 3
+{'0': 0.47, '3': 0.53}
+
+Probe 6:
+Hardamard on Qubit 1, 2, 3
 {'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
