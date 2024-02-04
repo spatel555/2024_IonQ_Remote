@@ -30,3 +30,15 @@ Hardamard on Qubit 2 & 3 (index 1, 2)
 Probe 6:
 Hardamard on Qubit 1, 2, 3
 {'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
+
+Probe 7:
+Hardamard on Qubit 2 & 3 (Index 1 & 2)
+cq.append(cirq.CNOT.on(cirq.LineQubit(1), cirq.LineQubit(2)))
+Hardamard on Qubit 1
+{'0': 0.25, '3': 0.22, '4': 0.32, '7': 0.21}
+
+Probe 8:
+Hardamard on Qubit 2 & 3 (Index 1 & 2)
+cq.append(cirq.CNOT.on(cirq.LineQubit(0), cirq.LineQubit(1)))
+Hardamard on Qubit 0
+{'0': 0.25, '2': 0.22, '5': 0.32, '7': 0.21}
