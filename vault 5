@@ -24,7 +24,7 @@ Hardamard on QuBit 2 (index 1)
 {'0': 0.25, '1': 0.22, '2': 0.32, '3': 0.21}
 
 Probe 5:
-Hardamard on Qubit 2 & 3
+Hardamard on Qubit 2 & 3 (index 1, 2)
 {'0': 0.47, '3': 0.53}
 
 Probe 6:
