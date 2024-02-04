@@ -3,3 +3,9 @@ vault 9 - probe 1
 
 accidental attack:
 {'costFactor': 1, 'rawScore': 0.153, 'score': 0.153}
+
+vault 9 - probe 2 (doing nothing)
+{'0': 0.155, '1': 0.755, '3': 0.09}
+
+vault 9 - probe 3 (hadamard on 0)
+{'0': 0.105, '1': 0.205, '2': 0.025, '3': 0.665}
