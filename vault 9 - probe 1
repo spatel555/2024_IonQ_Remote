@@ -1,2 +1,5 @@
 vault 9 - probe 1
 {'0': 0.105, '1': 0.205, '2': 0.025, '3': 0.665}
+
+accidental attack:
+{'costFactor': 1, 'rawScore': 0.153, 'score': 0.153}
