@@ -73,3 +73,15 @@ ATTACK!
 hadamard on index 1 and 2, that's it
 {'costFactor': 1, 'rawScore': 0.499, 'score': 0.499}
 
+probe 13
+X on first qubit (index 0)
+{'0': 0.13,
+ '1': 0.12,
+ '2': 0.11,
+ '3': 0.11,
+ '4': 0.17,
+ '5': 0.15,
+ '6': 0.095,
+ '7': 0.115}
+
+
