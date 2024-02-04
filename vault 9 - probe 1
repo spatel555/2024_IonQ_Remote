@@ -9,3 +9,9 @@ vault 9 - probe 2 (doing nothing)
 
 vault 9 - probe 3 (hadamard on 0)
 {'0': 0.105, '1': 0.205, '2': 0.025, '3': 0.665}
+
+vault 9 - probe 4
+qubits = [cirq.LineQubit(i) for i in range(2)]
+circ = cirq.Circuit()
+circ.append(cirq.rx(-2).on(qubits[1]))
+{'0': 0.055, '1': 0.4, '2': 0.055, '3': 0.49}
